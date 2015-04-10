@@ -1,0 +1,32 @@
+{
+  "name": "bem-stat-counters",
+  "version": "0.0.0",
+  "description": "The lib, which provides statistics counters, e.g. Google analytics, Yandex metrica, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remnev/stat-counters.git"
+  },
+  "keywords": [
+    "BEM",
+    "bem",
+    "google-analytics",
+    "yandex",
+    "metrics",
+    "яндекс",
+    "метрика",
+    "счетчик"
+  ],
+  "author": "Yuriy Remnev",
+  "contributors": [
+    "Alexey Yaroshevich <zxqfox@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remnev/stat-counters/issues"
+  },
+  "homepage": "https://github.com/remnev/stat-counters"
+}
