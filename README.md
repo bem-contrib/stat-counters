@@ -1,6 +1,6 @@
 # Statistics counters BEM library
 
-A library for web analytics that provides site statistics counters to all BEM-based project.
+A library for web analytics that provides site statistics counters to any BEM-based project.
 
 ## Blocks inside
   - [yandex-metrica](#link_to_the_block_in_your_repo) — uses [Yandex.Metrica](https://metrica.yandex.com) service.
@@ -35,7 +35,7 @@ function getLevels(config) {
 // TODO
 ```
 
-Declare the library block in your project BEMJSON:
+Declare a counter in your project BEMJSON:
 
 ```js
 {
