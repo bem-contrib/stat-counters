@@ -4,7 +4,7 @@ A library for web analytics that provides site statistics counters to all BEM-ba
 
 ## Blocks inside
   - [yandex-metrica](#link_to_the_block_in_your_repo) — uses [Yandex.Metrica](https://metrica.yandex.com) service.
-  - ~~[google-analytics](#link_to_the_block_in_your_repo)~~ (in progress) — uses [Google Analytics](http://www.google.com/intl/en/analytics/?utm_expid=71218119-7.lBgmrTO8R3uEDwsxNxa_Nw.0) service.
+  - ~~[google-analytics](#link_to_the_block_in_your_repo)~~ (in progress) — uses [Google Analytics](http://www.google.com/analytics) service.
 
 ## How to use
 
