@@ -1,0 +1,13 @@
+{
+  "plugins": ["jscs-bem"],
+  "preset": "bem",
+  "excludeFiles": [
+        ".bem",
+        ".enb/tmp",
+        ".git",
+        "*.tmpl-specs",
+        "libs",
+        "node_modules",
+        ".jshint-groups.js"
+    ]
+}
