@@ -4,7 +4,11 @@
   "description": "The lib, which provides statistics counters, e.g. Google analytics, Yandex metrica, etc",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint-groups **/* && jscs ."
+    "lint": "jshint-groups **/* && jscs .",
+    "deps": "bower i",
+    "postinstall": "bower i",
+    "tmpl-specs": "magic run tmpl-specs",
+    "test": "npm run lint && npm run tmpl-specs"
   },
   "repository": {
     "type": "git",
