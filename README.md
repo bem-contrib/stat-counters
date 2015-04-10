@@ -1,20 +1,22 @@
-# Statistics counters BEM-library
+# Statistics counters BEM library
 
-The library provides site statistics counters to use in BEM-based project.
+A library for web analytics that provides site statistics counters to any BEM-based project.
 
 ## Blocks inside
-  - Yandex-metrica
-  - ~~Google-analytics~~ (in progress)
+  - [yandex-metrica](#link_to_the_block_in_your_repo) — uses [Yandex.Metrica](https://metrica.yandex.com) service.
+  - ~~[google-analytics](#link_to_the_block_in_your_repo)~~ (in progress) — uses [Google Analytics](http://www.google.com/analytics) service.
 
 ## How to use
-1. Get the library
+
+Get the library:
+
 ```sh
 $ bower install bem-stat-counters --save
 ```
 
-2. Include the library to levels declaration in your compiler tool config *(e.g. [enb](https://github.com/enb-make/enb), bem-tools)*
+Include the library to the levels declaration in your compiler tool configuration (e.g. [ENB](https://github.com/enb-make/enb) or [bem-tools](https://ru.bem.info/tools/bem/bem-tools/)):
 
-enb example
+*ENB example*
 ```js
 function getLevels(config) {
     return [
@@ -28,12 +30,12 @@ function getLevels(config) {
 }
 ```
 
-bem-tools example
+*bem-tools example*
 ```js
 // TODO
 ```
 
-3. Declare any library block in your bemjson
+Declare a counter in your project BEMJSON:
 
 ```js
 {
@@ -55,8 +57,17 @@ bem-tools example
 ```
 
 ## How to declare blocks
-### Yandex metrica
-Block has one required param `id` and other optional params, see example below
+### yandex-metrica
+
+Set the following parameters of the block:
+
+* `id` — required
+* `webvisor` — optoinal
+* `clickmap` — optional
+* `trackLinks` — optional
+* `accurateTrackBounce` — optional
+
+*Example*
 ```js
  {
     block: 'yandex-metrica',
