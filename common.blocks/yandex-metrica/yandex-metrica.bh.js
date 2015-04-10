@@ -7,8 +7,12 @@ module.exports = function (bh) {
         var scriptContent;
         var noScriptContent;
 
-        if (!params || !params.id) {
-            return;
+        if (!params) {
+            throw Error('Missing counter parameters object');
+        }
+
+        if (!params.id) {
+            throw Error('Missing counter ID');
         }
 
         scriptContent = [
