@@ -22,7 +22,7 @@ function getLevels(config) {
     return [
         // vendors levels
         {
-            path: 'vendors/stat-counters',
+            path: 'vendors/stat-counters/common.blocks',
             check: false
         },
         // your own levels
@@ -32,7 +32,15 @@ function getLevels(config) {
 
 *bem-tools example*
 ```js
-// TODO
+getLevelsMap: function() {
+   return {
+       desktop: [
+            // vendors levels
+            'vendors/stat-counters/common.blocks'
+            // your own levels
+       ]
+   };
+}
 ```
 
 Declare a counter in your project BEMJSON:
