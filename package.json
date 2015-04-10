@@ -4,7 +4,7 @@
   "description": "The lib, which provides statistics counters, e.g. Google analytics, Yandex metrica, etc",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint-groups **/*"
+    "lint": "jshint-groups **/* && jscs ."
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
     "Alexey Yaroshevich <zxqfox@gmail.com>"
   ],
   "devDependencies": {
+    "jscs": "1.12.0",
+    "jscs-bem": "0.2.0",
     "jshint": "^2.6.3",
     "jshint-groups": "^0.8.0"
   },
