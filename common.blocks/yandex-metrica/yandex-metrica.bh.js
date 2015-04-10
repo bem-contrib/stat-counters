@@ -3,15 +3,15 @@
 module.exports = function (bh) {
 
     bh.match('yandex-metrica', function (ctx) {
-        var params = ctx.json().params;
-        var scriptContent;
-        var noScriptContent;
+        var params = ctx.json().params,
+            scriptContent,
+            noScriptContent;
 
-        if (!params) {
+        if(!params) {
             throw Error('Missing counter parameters object');
         }
 
-        if (!params.id) {
+        if(!params.id) {
             throw Error('Missing counter ID');
         }
 
@@ -37,24 +37,24 @@ module.exports = function (bh) {
         ].join('\n');
 
         noScriptContent = {
-            tag: 'div',
-            content: {
-                tag: 'img',
-                attrs: {
-                    src: '//mc.yandex.ru/watch/' + params.id,
-                    style: 'position:absolute; left:-9999px;'
+            tag : 'div',
+            content : {
+                tag : 'img',
+                attrs : {
+                    src : '//mc.yandex.ru/watch/' + params.id,
+                    style : 'position:absolute; left:-9999px;'
                 }
             }
         };
 
         return [
             {
-                tag: 'script',
-                content: scriptContent
+                tag : 'script',
+                content : scriptContent
             },
             {
-                tag: 'noscript',
-                content: noScriptContent
+                tag : 'noscript',
+                content : noScriptContent
             }
         ];
     });

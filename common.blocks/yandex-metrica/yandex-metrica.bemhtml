@@ -1,7 +1,7 @@
 block('yandex-metrica').def()(function() {
-    var params = this.ctx.params;
-    var scriptContent;
-    var noScriptContent;
+    var params = this.ctx.params,
+        scriptContent,
+        noScriptContent;
 
     if (!params) {
         throw Error('Missing counter parameters object');
