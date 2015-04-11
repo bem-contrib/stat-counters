@@ -32,6 +32,23 @@ function getLevels(config) {
 
 *bem-tools example*
 ```js
+exports.getConfig = function() {
+
+    return extend({}, this.__base() || {}, {
+
+        bundleBuildLevels: this.resolvePaths([
+            // vendors levels
+            'vendors/stat-counters/common.blocks'
+            // your own levels
+        ])
+
+    });
+
+};
+```
+
+*bem-tools example if you use [bem-project-stub](https://github.com/bem/project-stub)*
+```js
 getLevelsMap: function() {
    return {
        desktop: [
