@@ -108,4 +108,4 @@ Set the following parameters of the block:
 
 ## License
 
-MIT [License][https://github.com/remnev/stat-counters/blob/master/LICENSE]
+MIT [License](https://github.com/remnev/stat-counters/blob/master/LICENSE)
