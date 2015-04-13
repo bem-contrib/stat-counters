@@ -1,5 +1,6 @@
 # Statistics counters BEM library
 [![Build Status](https://travis-ci.org/remnev/stat-counters.svg)](https://travis-ci.org/remnev/stat-counters)
+[![Coverage Status](https://coveralls.io/repos/remnev/stat-counters/badge.svg)](https://coveralls.io/r/remnev/stat-counters)
 
 A library for web analytics that provides site statistics counters to any BEM-based project.
 
