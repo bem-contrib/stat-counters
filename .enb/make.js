@@ -18,13 +18,15 @@ module.exports = function(config) {
                 destPath : platform + '.tmpl-specs',
                 levels : getSpecLevels(platform),
                 sourceLevels : getLevels(platform),
+                coverage : true,
                 engines : {
                     bh : {
-                        tech : 'enb-bh/techs/bh-server',
+                        tech : 'enb-bh/techs/bh-server-include',
                         options : {
                             jsAttrName : 'data-bem',
                             jsAttrScheme : 'json'
-                        }
+                        },
+                        sourcemaps : true
                     },
                     'bemhtml-dev' : {
                         tech : 'enb-bemxjst/techs/bemhtml-old',
