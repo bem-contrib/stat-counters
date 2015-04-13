@@ -1,6 +1,6 @@
 ({
-	block : 'yandex-metrica',
-	params : {
-		id : '12345'
-	}
+    block : 'yandex-metrica',
+    params : {
+        id : '12345'
+    }
 })

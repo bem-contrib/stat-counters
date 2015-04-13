@@ -5,3 +5,8 @@ node_js:
 
 matrix:
   fast_finish: true
+
+after_success:
+  - |
+      npm install coveralls
+      cat coverage/lcov.info | node_modules/.bin/coveralls && echo "Coverage data was sent to coveralls!"

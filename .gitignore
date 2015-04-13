@@ -6,3 +6,5 @@ node_modules
 .enb/tmp
 
 /*.tmpl-specs
+
+/coverage
