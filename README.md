@@ -5,6 +5,7 @@ A library for web analytics that provides site statistics counters to any BEM-ba
 
 ## Blocks inside
   - [yandex-metrica](#link_to_the_block_in_your_repo) — uses [Yandex.Metrica](https://metrica.yandex.com) service.
+  - [google-tag-manager](#google-tag-manager) — uses [Google Tag Manager](https://www.google.com/tagmanager/) service.
   - ~~[google-analytics](#link_to_the_block_in_your_repo)~~ (in progress) — uses [Google Analytics](http://www.google.com/analytics) service.
 
 ## How to use
@@ -103,6 +104,22 @@ Set the following parameters of the block:
         clickmap: true,
         trackLinks: true,
         accurateTrackBounce: true
+    }
+}
+```
+
+### google-tag-manager
+
+Set the following parameters of the block:
+
+* `id` — required
+
+*Example*
+```js
+ {
+    block: 'google-tag-manager',
+    params: {
+        id: 'GTM-XXXX'
     }
 }
 ```
