@@ -8,7 +8,8 @@
         "*.tmpl-specs",
         "libs",
         "node_modules",
-        ".jshint-groups.js"
+        ".jshint-groups.js",
+        "coverage"
     ],
     "fileExtensions": [".js", ".bemhtml"]
 }
