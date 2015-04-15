@@ -71,7 +71,7 @@ Declare a counter in your project BEMJSON:
         {
             block: 'yandex-metrica',
             params: {
-                id: configs.metrika.id,
+                id: '0000000',
                 webvisor: true,
                 clickmap: true,
                 trackLinks: true,
@@ -88,7 +88,7 @@ Declare a counter in your project BEMJSON:
 Set the following parameters of the block:
 
 * `id` — required
-* `webvisor` — optoinal
+* `webvisor` — optional
 * `clickmap` — optional
 * `trackLinks` — optional
 * `accurateTrackBounce` — optional
@@ -98,7 +98,7 @@ Set the following parameters of the block:
  {
     block: 'yandex-metrica',
     params: {
-        id: configs.metrika.id, // required param
+        id: '0000000', // required param
         webvisor: true,
         clickmap: true,
         trackLinks: true,
