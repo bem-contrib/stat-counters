@@ -97,7 +97,7 @@ Set the following parameters of the block:
 
 *Example*
 ```js
- {
+{
     block: 'yandex-metrica',
     params: {
         id: '0000000', // required param
@@ -117,7 +117,7 @@ Set the following parameters of the block:
 
 *Example*
 ```js
- {
+{
     block: 'google-tag-manager',
     params: {
         id: 'GTM-XXXX'
@@ -133,7 +133,7 @@ Set the following parameters of the block:
 
 *Example*
 ```js
- {
+{
     block: 'google-analytics',
     params: {
         id: 'UA-XXXXXXXX-X'
