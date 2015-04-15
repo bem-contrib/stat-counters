@@ -6,7 +6,7 @@ A library for web analytics that provides site statistics counters to any BEM-ba
 
 ## Blocks inside
   - [yandex-metrica](#yandex-metrica) — uses [Yandex.Metrica](https://metrica.yandex.com) service.
-  - ~~[google-analytics](#link_to_the_block_in_your_repo)~~ (in progress) — uses [Google Analytics](http://www.google.com/analytics) service.
+  - [google-analytics](#google-analytics) — uses [Google Analytics](https://www.google.com/analytics) service.
 
 ## How to use
 
@@ -104,6 +104,22 @@ Set the following parameters of the block:
         clickmap: true,
         trackLinks: true,
         accurateTrackBounce: true
+    }
+}
+```
+
+### google-analytics
+
+Set the following parameters of the block:
+
+* `id` — required
+
+*Example*
+```js
+ {
+    block: 'google-analytics',
+    params: {
+        id: 'UA-XXXXXXXX-X'
     }
 }
 ```
