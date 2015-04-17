@@ -4,7 +4,7 @@
   "description": "The lib, which provides statistics counters, e.g. Google analytics, Yandex metrica, etc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/remnev/stat-counters.git"
+    "url": "https://github.com/bem-incubator/stat-counters.git"
   },
   "keywords": [
     "BEM",
