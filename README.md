@@ -141,6 +141,8 @@ Set the following parameters of the block:
 }
 ```
 
+Also the block has a simple API to track custom user events on page. Click [here](https://github.com/bem-incubator/stat-counters/blob/master/common.blocks/google-analytics/google-analytics.en.md) to learn more.
+
 ## License
 
 MIT [License](https://github.com/bem-incubator/stat-counters/blob/master/LICENSE)
