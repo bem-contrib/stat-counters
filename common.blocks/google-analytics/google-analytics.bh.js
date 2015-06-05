@@ -20,7 +20,7 @@ module.exports = function (bh) {
             'm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)',
             '})(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');',
             '',
-            params.userId ?
+            params.userId?
                 'ga(\'create\', \'' + params.id + '\', \'auto\', { \'userId\': \'' + params.userId + '\' });' :
                 'ga(\'create\', \'' + params.id + '\', \'auto\');',
             'ga(\'send\', \'pageview\');'
