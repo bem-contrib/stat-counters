@@ -1,10 +1,10 @@
 # google-analytics
 
-Блок для трекинга событий в гугл аналитике.
+Track event on Google Analytics.
 
-Использование:
+Usage:
 
-- по DOM-событию
+- by DOM-event
 
 ``` js
 {
@@ -12,13 +12,13 @@
     mix : [
         { block : 'google-analytics', js : {
             info : ['user', 'start'],
-            on : ['block-to-track', 'click'] // 0 - имя блока, 1 - тип события для биндинга
+            on : ['block-to-track', 'click'] // 0 - block name, 1 - event name
         }}
     ]
 }
 ```
 
-- по js инициализации
+- on js init
 
 ``` js
 {
