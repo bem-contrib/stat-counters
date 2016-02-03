@@ -8,6 +8,7 @@ A library for web analytics that provides site statistics counters to any BEM-ba
   - [yandex-metrica](#yandex-metrica) — uses [Yandex.Metrica](https://metrica.yandex.com) service.
   - [google-tag-manager](#google-tag-manager) — uses [Google Tag Manager](https://www.google.com/tagmanager/) service.
   - [google-analytics](#google-analytics) — uses [Google Analytics](https://www.google.com/analytics) service.
+  - [statcounter](#statcounter) — uses [StatCounter](http://statcounter.com/) service.
 
 ## How to use
 
@@ -142,6 +143,26 @@ Set the following parameters of the block:
 ```
 
 Also the block has a simple API to track custom user events on page. Click [here](https://github.com/bem-incubator/stat-counters/blob/master/common.blocks/google-analytics/google-analytics.en.md) to learn more.
+
+### statcounter
+
+Set the following parameters of the block:
+
+* `id` — required
+* `security` — required
+
+Support only invisible mode.
+
+*Example*
+```js
+{
+    block: 'statcounter',
+    params: {
+        project: XXXXXXXX,
+        security: 'YYYYYYYY'
+    }
+}
+```
 
 ## License
 
