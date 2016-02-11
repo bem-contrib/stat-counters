@@ -1,6 +1,6 @@
 # Statistics counters BEM library
-[![Build Status](https://travis-ci.org/bem-incubator/stat-counters.svg)](https://travis-ci.org/bem-incubator/stat-counters)
-[![Coverage Status](https://coveralls.io/repos/bem-incubator/stat-counters/badge.svg)](https://coveralls.io/r/bem-incubator/stat-counters)
+[![Build Status](https://travis-ci.org/bem-contrib/stat-counters.svg)](https://travis-ci.org/bem-contrib/stat-counters)
+[![Coverage Status](https://coveralls.io/repos/bem-contrib/stat-counters/badge.svg)](https://coveralls.io/r/bem-contrib/stat-counters)
 
 A library for web analytics that provides site statistics counters to any BEM-based project.
 
@@ -142,7 +142,7 @@ Set the following parameters of the block:
 }
 ```
 
-Also the block has a simple API to track custom user events on page. Click [here](https://github.com/bem-incubator/stat-counters/blob/master/common.blocks/google-analytics/google-analytics.en.md) to learn more.
+Also the block has a simple API to track custom user events on page. Click [here](https://github.com/bem-contrib/stat-counters/blob/master/common.blocks/google-analytics/google-analytics.en.md) to learn more.
 
 ### statcounter
 
@@ -166,4 +166,4 @@ Support only invisible mode.
 
 ## License
 
-MIT [License](https://github.com/bem-incubator/stat-counters/blob/master/LICENSE)
+MIT [License](https://github.com/bem-contrib/stat-counters/blob/master/LICENSE)

@@ -47,7 +47,7 @@ block('statcounter').def()(function() {
         }
     };
 
-    applyCtx([
+    return applyCtx([
         {
             tag : 'script',
             content : scriptContent

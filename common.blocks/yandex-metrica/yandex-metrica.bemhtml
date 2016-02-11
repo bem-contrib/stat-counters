@@ -43,7 +43,7 @@ block('yandex-metrica').def()(function() {
         }
     };
 
-    applyCtx([
+    return applyCtx([
         {
             tag : 'script',
             content : scriptContent

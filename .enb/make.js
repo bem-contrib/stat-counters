@@ -21,20 +21,18 @@ module.exports = function(config) {
                 coverage : true,
                 engines : {
                     bh : {
-                        tech : 'enb-bh/techs/bh-server-include',
+                        tech : 'enb-bh/techs/bh-bundle',
                         options : {
                             jsAttrName : 'data-bem',
                             jsAttrScheme : 'json',
                             sourcemap : true
                         }
                     },
-                    'bemhtml-dev' : {
-                        tech : 'enb-bemxjst/techs/bemhtml-old',
-                        options : { devMode : true }
-                    },
-                    'bemhtml-prod' : {
-                        tech : 'enb-bemxjst/techs/bemhtml-old',
-                        options : { devMode : false }
+                    'bemhtml' : {
+                        tech : 'enb-bemxjst/techs/bemhtml',
+                        options : {
+                            sourceSuffixes : ['bemhtml']
+                        }
                     }
                 }
             });

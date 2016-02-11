@@ -22,7 +22,7 @@ block('google-analytics').def()(function() {
         'ga(\'send\', \'pageview\');'
     ].join('\n');
 
-    applyCtx([
+    return applyCtx([
         {
             tag : 'script',
             content : scriptContent

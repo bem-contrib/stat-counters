@@ -29,7 +29,7 @@ block('google-tag-manager').def()(function() {
         }
     };
 
-    applyCtx([
+    return applyCtx([
         {
             tag : 'noscript',
             content : noScriptContent
