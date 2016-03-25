@@ -26,7 +26,7 @@ function getLevels(config) {
     return [
         // vendors levels
         {
-            path: 'vendors/stat-counters/common.blocks',
+            path: 'vendors/bem-stat-counters/common.blocks',
             check: false
         },
         // your own levels
