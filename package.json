@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "jshint-groups **/* && jscs .",
-    "deps": "bower i",
-    "postinstall": "bower i",
+    "deps": "bower i --allow-root",
     "tmpl-specs": "magic run tmpl-specs",
-    "test": "npm run lint && npm run tmpl-specs"
+    "test": "npm run lint && npm run deps && npm run tmpl-specs"
   },
   "repository": {
     "type": "git",
