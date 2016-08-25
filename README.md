@@ -10,13 +10,21 @@ A library for web analytics that provides site statistics counters to any BEM-ba
   - [google-analytics](#google-analytics) — uses [Google Analytics](https://www.google.com/analytics) service.
   - [statcounter](#statcounter) — uses [StatCounter](http://statcounter.com/) service.
 
-## How to use
+##Get the library:
 
-Get the library:
+via bower:
 
 ```sh
 $ bower install bem-stat-counters --save
 ```
+
+via npm:
+
+```sh
+$ npm install https://github.com/bem-contrib/stat-counters.git --save
+```
+
+## How to use
 
 Include the library to the levels declaration in your compiler tool configuration (e.g. [ENB](https://github.com/enb-make/enb) or [bem-tools](https://ru.bem.info/tools/bem/bem-tools/)):
 
