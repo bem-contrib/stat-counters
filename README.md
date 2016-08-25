@@ -18,7 +18,7 @@ via bower:
 $ bower install bem-stat-counters --save
 ```
 
-via npm:
+via npm *(also, you should ensure that `bem-core` dependency is already installed)*:
 
 ```sh
 $ npm install https://github.com/bem-contrib/stat-counters.git --save
