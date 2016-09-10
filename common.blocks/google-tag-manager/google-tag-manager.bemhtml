@@ -1,4 +1,4 @@
-block('google-tag-manager').def()(function() {
+block('google-tag-manager').replace()(function() {
     var params = this.ctx.params,
         scriptContent,
         noScriptContent;
@@ -29,14 +29,15 @@ block('google-tag-manager').def()(function() {
         }
     };
 
-    return applyCtx([
+    return [
         {
             tag : 'noscript',
+            attrs : { nonce : this.ctx.nonce },
             content : noScriptContent
         },
         {
             tag : 'script',
             content : scriptContent
         }
-    ]);
+    ];
 });

@@ -36,6 +36,7 @@ bh.match('google-tag-manager', function(ctx) {
     return [
         {
             tag : 'noscript',
+            attrs : { nonce : ctx.json().nonce },
             content : noScriptContent
         },
         {

@@ -1,4 +1,4 @@
-block('google-analytics').def()(function() {
+block('google-analytics').replace()(function() {
     var params = this.ctx.params,
         scriptContent;
 
@@ -22,10 +22,11 @@ block('google-analytics').def()(function() {
         'ga(\'send\', \'pageview\');'
     ].join('\n');
 
-    return applyCtx([
+    return [
         {
             tag : 'script',
+            attrs : { nonce : this.ctx.nonce },
             content : scriptContent
         }
-    ]);
+    ];
 });

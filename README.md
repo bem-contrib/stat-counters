@@ -172,6 +172,31 @@ Support only invisible mode.
 }
 ```
 
+## Content Security Policy (CSP) support
+
+You can use counters even if your web server has CSP settings which forbid inline scripts using. In this case you should provide the same value of the `nonce`-parameter in the CSP http header and the html attribute for inline script.
+
+*Example*
+
+1) CSP header
+```
+Content-Security-Policy:
+ ...
+ script-src 'nonce-FOO'
+ ...
+```
+
+2) counter block declaration
+```js
+{
+    block: 'google-analytics', // or any another block of the library
+    params: {
+        id: 'UA-XXXXXXXX-X'
+    },
+    nonce: 'FOO'
+}
+```
+
 ## License
 
 MIT [License](https://github.com/bem-contrib/stat-counters/blob/master/LICENSE)

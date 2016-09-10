@@ -29,6 +29,7 @@ module.exports = function (bh) {
         return [
             {
                 tag : 'script',
+                attrs : { nonce : ctx.json().nonce },
                 content : scriptContent
             }
         ];

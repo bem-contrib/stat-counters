@@ -1,4 +1,4 @@
-block('statcounter').def()(function() {
+block('statcounter').replace()(function() {
     var params = this.ctx.params,
         scriptContent,
         noScriptContent;
@@ -47,14 +47,15 @@ block('statcounter').def()(function() {
         }
     };
 
-    return applyCtx([
+    return [
         {
             tag : 'script',
+            attrs : { nonce : this.ctx.nonce },
             content : scriptContent
         },
         {
             tag : 'noscript',
             content : noScriptContent
         }
-    ]);
+    ];
 });
