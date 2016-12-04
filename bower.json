@@ -1,6 +1,5 @@
 {
   "name": "bem-stat-counters",
-  "version": "1.4.0",
   "description": "The lib, which provides statistics counters, e.g. Google analytics, Yandex metrica, etc",
   "repository": {
     "type": "git",
