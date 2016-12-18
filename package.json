@@ -24,7 +24,7 @@
     "метрика",
     "счетчик"
   ],
-  "author": "Yuriy Remnev",
+  "author": "Yuriy Remnev <yura_remnev@mail.ru>",
   "contributors": [
     "Alexey Yaroshevich <zxqfox@gmail.com>"
   ],
@@ -46,5 +46,8 @@
   "bugs": {
     "url": "https://github.com/bem-contrib/stat-counters/issues"
   },
-  "homepage": "https://github.com/bem-contrib/stat-counters"
+  "homepage": "https://github.com/bem-contrib/stat-counters",
+  "files": [
+    "/common.blocks/*/!(*.tmpl-specs)"
+  ]
 }

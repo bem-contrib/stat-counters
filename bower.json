@@ -20,9 +20,12 @@
   "main": "",
   "license": "MIT",
   "ignore": [
-    "node_modules",
-    "libs",
-    "*.bundles"
+    "*",
+    "!common.blocks/**",
+    "common.blocks/*/*.tmpl-specs",
+    "!LICENSE",
+    "!bower.json",
+    "!README.md"
   ],
   "dependencies": {
     "bem-core": "^2.6.0"
