@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bem-incubator/stat-counters.git"
+    "url": "https://github.com/bem-contrib/stat-counters.git"
   },
   "keywords": [
     "BEM",
