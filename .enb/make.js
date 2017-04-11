@@ -1,7 +1,4 @@
-var path = require('path'),
-    PLATFORMS = {
-        'common' : ['common']
-    };
+'use strict';
 
 module.exports = function(config) {
     var platforms = ['common'];
@@ -16,8 +13,8 @@ module.exports = function(config) {
         platforms.forEach(function(platform) {
             sets.tmplSpecs.configure({
                 destPath : platform + '.tmpl-specs',
-                levels : getSpecLevels(platform),
-                sourceLevels : getLevels(platform),
+                levels : ['common.blocks'],
+                sourceLevels : ['common.blocks'],
                 coverage : true,
                 engines : {
                     bh : {
@@ -28,7 +25,7 @@ module.exports = function(config) {
                             sourcemap : true
                         }
                     },
-                    'bemhtml' : {
+                    bemhtml : {
                         tech : 'enb-bemxjst/techs/bemhtml',
                         options : {
                             sourceSuffixes : ['bemhtml']
@@ -39,30 +36,3 @@ module.exports = function(config) {
         });
     }
 };
-
-function getLevels(platform) {
-    var levels = [];
-
-    PLATFORMS[platform].forEach(function(name) {
-        levels.push({
-            path : path.join('libs', 'bem-core', name + '.blocks'),
-            check : false
-        });
-    });
-
-    PLATFORMS[platform].forEach(function(name) {
-        levels.push(name + '.blocks');
-    });
-
-    return levels;
-}
-
-function getSpecLevels(platform) {
-    var levels = [];
-
-    PLATFORMS[platform].forEach(function(name) {
-        levels.push(name + '.blocks');
-    });
-
-    return levels;
-}
