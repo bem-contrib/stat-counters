@@ -18,7 +18,7 @@ module.exports = {
             options: {
                 predef: ['apply', 'applyCtx', 'applyNext', 'attrs', 'bem', 'block', 'cls', 'content', 'def', 'elem', 'js', 'local', 'match', 'mix', 'mod', 'mode', 'tag']
             },
-            includes: ['*.blocks/**/*.bemhtml']
+            includes: ['*.blocks/**/*.bemhtml.js']
         },
 
         bhjs: {

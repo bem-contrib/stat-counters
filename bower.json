@@ -26,8 +26,5 @@
     "!LICENSE",
     "!bower.json",
     "!README.md"
-  ],
-  "dependencies": {
-    "bem-core": "^2.6.0"
-  }
+  ]
 }
