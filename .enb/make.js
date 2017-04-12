@@ -26,10 +26,7 @@ module.exports = function(config) {
                         }
                     },
                     bemhtml : {
-                        tech : 'enb-bemxjst/techs/bemhtml',
-                        options : {
-                            sourceSuffixes : ['bemhtml']
-                        }
+                        tech : 'enb-bemxjst/techs/bemhtml'
                     }
                 }
             });

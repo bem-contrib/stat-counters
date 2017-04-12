@@ -1,8 +1,5 @@
 node_modules
-/libs
 
-.bem/cache
-.bem/snapshots
 .enb/tmp
 
 /*.tmpl-specs
