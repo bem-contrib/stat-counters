@@ -2,6 +2,11 @@
 
 Track event on Google Analytics.
 
+---
+**NB** client implementation of this block requires 'i-bem__dom' and 'jquery' from [bem-core](https://github.com/bem/bem-core) library. If you're going to use it, don't forget to include the bem-core to your project.
+
+---
+
 Usage:
 
 - by DOM-event

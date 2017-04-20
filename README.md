@@ -10,7 +10,7 @@ A library for web analytics that provides site statistics counters to any BEM-ba
   - [google-analytics](#google-analytics) — uses [Google Analytics](https://www.google.com/analytics) service.
   - [statcounter](#statcounter) — uses [StatCounter](http://statcounter.com/) service.
 
-##Get the library:
+## Get the library:
 
 via bower:
 
