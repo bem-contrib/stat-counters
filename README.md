@@ -86,7 +86,8 @@ Declare a counter in your project BEMJSON:
                 webvisor: true,
                 clickmap: true,
                 trackLinks: true,
-                accurateTrackBounce: true
+                accurateTrackBounce: true,
+                v2: true
             }
         }
     ]
@@ -103,6 +104,7 @@ Set the following parameters of the block:
 * `clickmap` — optional
 * `trackLinks` — optional
 * `accurateTrackBounce` — optional
+* `v2` — optional
 
 *Example*
 ```js
@@ -113,7 +115,8 @@ Set the following parameters of the block:
         webvisor: true,
         clickmap: true,
         trackLinks: true,
-        accurateTrackBounce: true
+        accurateTrackBounce: true,
+        v2: true
     }
 }
 ```
