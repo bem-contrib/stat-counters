@@ -37,7 +37,9 @@ block('google-tag-manager').replace()(function() {
         },
         {
             tag : 'script',
-            content : scriptContent
+            content : {
+                html : scriptContent
+            }
         }
     ];
 });
