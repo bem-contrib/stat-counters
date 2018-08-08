@@ -26,7 +26,12 @@ module.exports = function(config) {
                         }
                     },
                     bemhtml : {
-                        tech : 'enb-bemxjst/techs/bemhtml'
+                        tech : 'enb-bemxjst/techs/bemhtml',
+                        options : {
+                            engineOptions : {
+                                xhtml : true
+                            }
+                        }
                     }
                 }
             });

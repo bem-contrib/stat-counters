@@ -29,12 +29,13 @@
     "Alexey Yaroshevich <zxqfox@gmail.com>"
   ],
   "devDependencies": {
-    "bower": "1.7.7",
+    "bower": "1.8.4",
     "enb": "^1.3.0",
     "enb-bem-techs": "^2.2.1",
-    "enb-bem-tmpl-specs": "^1.2.0",
-    "enb-bemxjst": "^4.1.1",
+    "enb-bem-tmpl-specs": "^1.3.3",
+    "enb-bemxjst": "^8.10.4",
     "enb-bh": "^1.1.0",
+    "enb-magic-factory": "^0.6.0",
     "enb-magic-platform": "^0.7.0",
     "jscs": "^2.9.0",
     "jscs-bem": "^0.2.0",

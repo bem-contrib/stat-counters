@@ -51,7 +51,9 @@ block('statcounter').replace()(function() {
         {
             tag : 'script',
             attrs : { nonce : this.ctx.nonce },
-            content : scriptContent
+            content : {
+                html : scriptContent
+            }
         },
         {
             tag : 'noscript',
